@@ -1,4 +1,7 @@
 # core/db.py
+import sqlite3
+import os
+
 DB_PATH = os.path.join('data', 'truewater.db')
 
 

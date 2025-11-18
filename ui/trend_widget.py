@@ -1,10 +1,12 @@
 # ui/trend_widget.py
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QTextEdit, QLabel
+from PySide6.QtCore import Qt
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import os
 from PySide6.QtGui import QPixmap
+
 
 class TrendWidget(QWidget):
     def __init__(self, parent=None):
