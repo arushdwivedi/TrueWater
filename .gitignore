@@ -1,0 +1,9 @@
+__pycache__/
+env/
+data/truewater.db
+*.pyc
+*.pyo
+*.pyd
+.history
+.idea/
+.vscode/
